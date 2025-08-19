@@ -25,7 +25,7 @@ Langkah 2 : edit pada bagian
     sys.path.append(BASE_DIR) # Add base directory to sys.path for module imports
     API_KEY = "YOUR_GEMINI_API_KEY_HERE" <-----------# Ganti "YOUR_GEMINI_API_KEY_HERE" dengan kunci API Gemini Anda yang sebenarnya
 
- kemudian simpan
+    kemudian simpan
 Langkah 3 : Jalankan bat. 
     Gemini Interaktif sudah siap.
 
