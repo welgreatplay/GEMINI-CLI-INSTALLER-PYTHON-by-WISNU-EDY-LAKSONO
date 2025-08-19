@@ -92,6 +92,8 @@ import os
 import google.generativeai as genai
 
 # Mengambil API Key dari environment variable
+
+
 try:
     api_key = os.environ['GOOGLE_API_KEY']
     genai.configure(api_key=api_key)
@@ -102,6 +104,8 @@ except KeyError:
 
 
 # Menguji koneksi dengan model
+
+
 for m in genai.list_models():
   if 'generateContent' in m.supported_generation_methods:
     print(m.name)
