@@ -17,6 +17,7 @@ Terdapat jenis dua file Chatbot
 
 
 ########## GEMINI API KEY MANUAL ###########
+
 Langkah 1 : buka file simplified_chat_Gemini_API_Manual.py
 Langkah 2 : edit pada bagian 
     # --- Konfigurasi ---
@@ -31,6 +32,7 @@ Langkah 3 : Jalankan bat.
 
 
 ########## GEMINI API KEY INSTALLED ###########
+
 Langkah 1: Menginstal Python dan Google SDK
 Instal Python: Jika Anda belum memiliki Python, unduh dan instal versi terbaru dari situs web resminya. Pastikan Anda mencentang opsi "Add python.exe to PATH" saat instalasi. Ini sangat penting agar Python dapat diakses dari Command Prompt.
 
@@ -73,6 +75,7 @@ Simpan: Klik "OK" di semua jendela yang terbuka untuk menyimpan perubahan.
 
 
 ########## Menguji Instalasi #########
+
 Untuk memastikan apakah Gemini CLI dan Gemini API key sudah terinstall atau belum, keterangan tersebut dapat dilihat dari output dengan menjalankan program coding dibawah ini.
 Buat File Python: Buat file Python baru, misalnya test_gemini.py, dan tambahkan kode berikut:
 
