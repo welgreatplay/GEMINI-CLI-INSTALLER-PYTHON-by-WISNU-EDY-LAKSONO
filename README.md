@@ -20,10 +20,13 @@ Terdapat jenis dua file Chatbot
 
 Langkah 1 : buka file simplified_chat_Gemini_API_Manual.py
 Langkah 2 : edit pada bagian 
+
+
     # --- Konfigurasi ---
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
     sys.path.append(BASE_DIR) # Add base directory to sys.path for module imports
     API_KEY = "YOUR_GEMINI_API_KEY_HERE" <-----------# Ganti "YOUR_GEMINI_API_KEY_HERE" dengan kunci API Gemini Anda yang sebenarnya
+
 
     kemudian simpan
 Langkah 3 : Jalankan bat. 
