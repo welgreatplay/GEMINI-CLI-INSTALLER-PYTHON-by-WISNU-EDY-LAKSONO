@@ -41,15 +41,18 @@ Instal Python: Jika Anda belum memiliki Python, unduh dan instal versi terbaru d
 
 Verifikasi Instalasi Python: Buka Command Prompt (tekan Win + R, ketik cmd, lalu Enter) dan jalankan perintah berikut untuk memastikan Python telah terinstal dengan benar:
 
+
 Bash
 
 python --version
 Instal Google Generative AI Library: Di Command Prompt yang sama, instal library yang diperlukan untuk berinteraksi dengan Gemini API.
 
+
 Bash
 
 pip install -q -U google-generativeai
 -q berarti quiet (tidak menampilkan banyak output), dan -U berarti upgrade (memastikan Anda mendapatkan versi terbaru).
+
 
 Langkah 2: Mendapatkan Gemini API Key
 Buka AI Studio: Pergi ke Google AI Studio dan login dengan akun Google Anda.
@@ -82,6 +85,7 @@ Simpan: Klik "OK" di semua jendela yang terbuka untuk menyimpan perubahan.
 Untuk memastikan apakah Gemini CLI dan Gemini API key sudah terinstall atau belum, keterangan tersebut dapat dilihat dari output dengan menjalankan program coding dibawah ini.
 Buat File Python: Buat file Python baru, misalnya test_gemini.py, dan tambahkan kode berikut:
 
+
 Python
 
 import os
@@ -95,6 +99,8 @@ try:
 except KeyError:
     print("Error: GOOGLE_API_KEY environment variable tidak ditemukan.")
 
+
+
 # Menguji koneksi dengan model
 for m in genai.list_models():
   if 'generateContent' in m.supported_generation_methods:
@@ -103,7 +109,11 @@ Kode ini akan mengambil API key dari environment variable dan mencoba mencetak d
 
 Jalankan Kode: Buka Command Prompt baru (ini penting agar perubahan environment variable terdeteksi) dan jalankan skrip Python:
 
+
+
 Bash
 
 python test_gemini.py
 Verifikasi Output: Jika instalasi berhasil, Anda akan melihat pesan "API Key berhasil dimuat!" diikuti dengan daftar model yang didukung, seperti models/gemini-1.5-pro atau models/gemini-1.0-pro.
+
+
