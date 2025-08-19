@@ -1,4 +1,4 @@
-file ini menjadi Final Project Wisnu Edy Laksono A.K.A Sensei Wisnu
+Program ini menjadi Final Project Wisnu Edy Laksono A.K.A Sensei Wisnu
 
    Program ini hanya bekerja bagi siapapun yang sudah menginstall gemini CLI, dimana program ini dibuat secara interaktif berjalan pada CMD dengan kecepatan yang lebih cepat ketimbang gemini CLI.
    titik fokus pada program ini adalah penggunaan chatbot gemini inetraktif sekilas tanpa perlu menyimpan histori.
