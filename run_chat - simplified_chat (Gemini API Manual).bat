@@ -1,0 +1,1 @@
+python simplified_chat_Gemini_API_Manual.py
